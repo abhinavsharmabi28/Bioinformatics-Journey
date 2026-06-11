@@ -1,0 +1,60 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ecoli.fasta
+           1 sequences; 4,641,652 total letters
+
+
+
+Query= query1
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome   130     1e-31
+
+
+>U00096.3 Escherichia coli str. K-12 substr. MG1655, complete 
+genome
+Length=4641652
+
+ Score = 130 bits (70),  Expect = 1e-31
+ Identities = 70/70 (100%), Gaps = 0/70 (0%)
+ Strand=Plus/Plus
+
+Query  1   AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTaaaaaaaGAGTGTC  60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1   AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTC  60
+
+Query  61  TGATAGCAGC  70
+           ||||||||||
+Sbjct  61  TGATAGCAGC  70
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 236723283
+
+
+  Database: ecoli.fasta
+    Posted date:  Jun 9, 2026  11:23 PM
+  Number of letters in database: 4,641,652
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
