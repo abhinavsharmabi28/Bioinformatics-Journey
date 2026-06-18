@@ -8,3 +8,4 @@ ecoli_db.*
 *.bwt
 *.pac
 *.sa
+04_samtools/depth.txt
