@@ -1,1 +1,10 @@
 ecoli_db.*
+*.bam
+*.bai
+*.fastq
+*.sam
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
