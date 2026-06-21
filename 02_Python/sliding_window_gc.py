@@ -14,11 +14,12 @@ for i in range(0, len(sequence), window_size):
     results.append((i, gc_content))
 
 df = pd.DataFrame(results, columns=["position", "gc_content"])
+df.to_csv("02_Python/gc_content.csv", index=False)
 plt.title("GC Content Across E. coli Genome")
 plt.xlabel("Position (bp)")
 plt.ylabel("GC Content (%)")
 plt.plot(df["position"], df["gc_content"])
-plt.savefig("gc_content_plot.png")
+plt.savefig("02_Python/gc_content_plot.png")
 plt.show()
 print(df.head())
 print(len(df))
