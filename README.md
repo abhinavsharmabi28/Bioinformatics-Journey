@@ -16,8 +16,3 @@ database, and ran a blastn search with a custom query sequence. Parsed tabular o
 stored results in a pandas DataFrame, and plotted GC% vs genomic position with matplotlib.  
 **Tools used:** Python, BioPython, numpy, pandas, matplotlib  
 **Output:** `02_Python/sliding_window_gc.py`, `02_Python/gc_content_plot.png`
-
-## Up Next
-- Bash scripting — turn pipeline steps into a reusable .sh script
-- SAMtools — align reads, inspect BAM files
-- Capstone — combine GC% and coverage depth into one portfolio writeup
