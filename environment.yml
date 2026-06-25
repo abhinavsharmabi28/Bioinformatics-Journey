@@ -1,19 +1,21 @@
-name: base
+name: bioinfo
 channels:
-  - defaults
   - bioconda
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.13
-  - conda=26.3.2
-  - setuptools
+  - python=3.11
+  - biopython
+  - pandas
+  - matplotlib
+  - numpy
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - hisat2
+  - salmon
+  - seqkit
+  - samtools
+  - bwa
+  - blast
   - pip
-  - wheel
-  - conda-anaconda-telemetry[version='>=0.3.0']
-  - conda-anaconda-tos[version='>=0.2.2']
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - anaconda-anon-usage
-  - anaconda-auth
-prefix: /home/octoberespresso/miniconda3
