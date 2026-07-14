@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR10868207_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868207_1_fastqc.zip
+FastQC	all_sections	SRR10868207_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868207_2_fastqc.zip
+FastQC	all_sections	SRR10868208_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868208_1_fastqc.zip
+FastQC	all_sections	SRR10868208_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868208_2_fastqc.zip
+FastQC	all_sections	SRR10868209_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868209_1_fastqc.zip
+FastQC	all_sections	SRR10868209_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868209_2_fastqc.zip
+FastQC	all_sections	SRR10868210_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868210_1_fastqc.zip
+FastQC	all_sections	SRR10868210_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868210_2_fastqc.zip
+FastQC	all_sections	SRR10868215_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868215_1_fastqc.zip
+FastQC	all_sections	SRR10868215_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868215_2_fastqc.zip
+FastQC	all_sections	SRR10868216_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868216_1_fastqc.zip
+FastQC	all_sections	SRR10868216_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868216_2_fastqc.zip
+FastQC	all_sections	SRR10868217_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868217_1_fastqc.zip
+FastQC	all_sections	SRR10868217_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868217_2_fastqc.zip
+FastQC	all_sections	SRR10868218_1	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868218_1_fastqc.zip
+FastQC	all_sections	SRR10868218_2	/home/abhi/Bioinformatics-Journey/05_RNAseq/fastqc_reports/SRR10868218_2_fastqc.zip

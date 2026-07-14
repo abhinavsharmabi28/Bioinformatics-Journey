@@ -9,3 +9,4 @@ ecoli_db.*
 *.pac
 *.sa
 04_samtools/depth.txt
+05_RNAseq/raw_data/
