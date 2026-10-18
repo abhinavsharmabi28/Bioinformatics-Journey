@@ -1,8 +1,9 @@
+from pathlib import Path
 from Bio import SeqIO
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-record = SeqIO.read("/home/octoberespresso/Bioinformatics-Journey/BLAST/ecoli.fasta", "fasta")  
+record = SeqIO.read(Path(__file__).resolve().parent.parent / "BLAST" / "ecoli.fasta", "fasta")  
 sequence = str(record.seq)
 
 window_size = 1000

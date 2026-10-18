@@ -1,21 +1,18 @@
-name: bioinfo
+name: pyanalysis
 channels:
-  - bioconda
   - conda-forge
-  - defaults
+  - bioconda
 dependencies:
-  - python=3.11
-  - biopython
-  - pandas
+  - python=3.12
   - matplotlib
-  - numpy
-  - fastqc
-  - multiqc
-  - trimmomatic
-  - hisat2
-  - salmon
-  - seqkit
+  - pandas
+  - biopython
+  - ipykernel
+  - jupyterlab
+  - sra-tools
+  - fastp
   - samtools
-  - bwa
-  - blast
-  - pip
+  - subread
+  - multiqc
+  - fastqc
+  - hisat2

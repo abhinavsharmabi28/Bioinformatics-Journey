@@ -1,7 +1,9 @@
 from Bio import SeqIO
 
+from pathlib import Path
+FASTA = Path(__file__).resolve().parent.parent / "BLAST" / "ecoli.fasta"
 # Parse the ecoli genome
-record = next(SeqIO.parse("/home/octoberespresso/Bioinformatics-Journey/BLAST/ecoli.fasta", "fasta"))
+record = next(SeqIO.parse(FASTA, "fasta"))
 
 print("ID:", record.id)
 print("Length:", len(record.seq), "base pairs")

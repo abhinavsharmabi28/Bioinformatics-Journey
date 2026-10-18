@@ -10,3 +10,9 @@ ecoli_db.*
 *.sa
 04_samtools/depth.txt
 05_RNAseq/raw_data/
+.DS_Store
+.vscode/
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
