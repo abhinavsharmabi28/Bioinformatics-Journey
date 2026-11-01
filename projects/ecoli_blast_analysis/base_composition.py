@@ -2,7 +2,7 @@ from pathlib import Path
 from Bio import SeqIO
 import matplotlib.pyplot as plt
 import pandas as pd
-x = next(SeqIO.parse(Path(__file__).resolve().parent.parent / "BLAST" / "ecoli.fasta","fasta"))
+x = next(SeqIO.parse(Path(__file__).resolve().parent.parent.parent / "data" / "ecoli.fasta","fasta"))
 counts = {"A":x.seq.count("A") , "T":x.seq.count("T") , "G":x.seq.count("G") , "C":x.seq.count("C")}
 df=pd.DataFrame.from_dict(counts, orient="index")
 df.plot.bar(legend=True)

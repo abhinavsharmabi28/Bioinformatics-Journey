@@ -3,7 +3,7 @@ from Bio import SeqIO
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-record = SeqIO.read(Path(__file__).resolve().parent.parent / "BLAST" / "ecoli.fasta", "fasta")  
+record = SeqIO.read(Path(__file__).resolve().parent.parent.parent / "data" / "ecoli.fasta", "fasta")  
 sequence = str(record.seq)
 
 window_size = 1000
@@ -15,12 +15,12 @@ for i in range(0, len(sequence), window_size):
     results.append((i, gc_content))
 
 df = pd.DataFrame(results, columns=["position", "gc_content"])
-df.to_csv("02_Python/gc_content.csv", index=False)
+df.to_csv("gc_content.csv", index=False)
 plt.title("GC Content Across E. coli Genome")
 plt.xlabel("Position (bp)")
 plt.ylabel("GC Content (%)")
 plt.plot(df["position"], df["gc_content"])
-plt.savefig("02_Python/gc_content_plot.png")
+plt.savefig("gc_content_plot.png")
 plt.show()
 print(df.head())
 print(len(df))
