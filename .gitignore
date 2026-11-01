@@ -16,3 +16,7 @@ ecoli_db.*
 *.fq
 *.fq.gz
 *.sra
+depth.txt
+reads.fq
+*.bam
+*.bai

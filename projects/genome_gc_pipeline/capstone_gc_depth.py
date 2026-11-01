@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 gc_df = pd.read_csv("gc_content.csv")
-depth_df = pd.read_csv("04_samtools/depth.txt", sep="\t", names=["chrom","position", "depth"])
+depth_df = pd.read_csv("depth.txt", sep="\t", names=["chrom","position", "depth"])
 depth_df["window"] = depth_df["position"] // 1000
 windowed_depth = depth_df.groupby("window")["depth"].mean()
 gc_df["avg_depth"] = windowed_depth.values 
