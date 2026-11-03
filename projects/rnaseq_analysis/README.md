@@ -33,3 +33,10 @@ accessions in `srr_accessions.txt` with prefetch/fasterq-dump if you want the da
 ## Next up
 Trimming → alignment (HISAT2/STAR) → featureCounts → DESeq2 for the actual
 differential expression analysis.
+
+## How to run
+Run from inside this folder, with SRA-tools, FastQC and MultiQC installed:
+
+    bash download_srr.sh
+
+The aggregated QC report is in `multiqc_report/multiqc_report.html`.
